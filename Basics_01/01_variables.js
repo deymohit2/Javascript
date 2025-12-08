@@ -11,5 +11,8 @@ accountPassword = "1223"
 accountCity = "Manali"
 
 console.log(accountId);
-
+/*
+Prefer not to use var, we can but it is not recommende instead use let and const
+Because of issue in block scope and functional scope
+*/
 console.table([accountEmail, accountPassword, accountCity])
